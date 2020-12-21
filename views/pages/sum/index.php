@@ -38,7 +38,15 @@
 
             let resultado = primeiroNumero + segundoNumero;
 
-            document.getElementById('resultado').innerHTML = resultado;
+            if(isNaN(resultado)){
+
+                alert('Informe um número válido');
+
+            } else {
+
+                document.getElementById('resultado').innerHTML = "<div class='alert alert-success text-center'>" + resultado + "</div>";
+
+            }
 
             return false;
 
