@@ -14,6 +14,12 @@
 
         break;
 
+        case 'multiplicacao':
+
+            require_once "./routes/multiplication.php";
+
+        break;
+
     }
 
 
