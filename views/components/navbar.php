@@ -10,6 +10,7 @@
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a class="nav-link" href="/sum">Somar </a>
+        <a class="nav-link" href="/multiplicacao">Multiplicar </a>
       </li>
       
     </ul>
